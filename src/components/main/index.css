@@ -1,0 +1,38 @@
+.main-container {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.nav-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+}
+
+.emoji-button {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: silver;
+    cursor: pointer;
+}
+
+.button-title {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.button-title span {
+    color: silver;
+    transform: translateX(20px);
+}
